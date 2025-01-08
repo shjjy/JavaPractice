@@ -1,0 +1,3 @@
+一般情況，所有長度都是1，使用BFS 廣度優先 O(V+E)
+非負的，但長度非1 Dijkstra O(E+VlogV)
+一般情況 BellmanFord O(VE)

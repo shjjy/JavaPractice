@@ -5,6 +5,11 @@ import ds.hw13.sortCompare.Sorter;
 
 import static ds.util.ArrayUtil.swap;
 
+//拿一個值當基準(pivot)，最左邊0
+//用兩個index紀錄，第一個，比基準小的 index(i)、第二個，目前計算到的 index(j)
+//若資料小於基準，i, j 交換，同時 i+1(加大)比基準小的 index
+//步驟1，找出 pivot，同時左邊皆小於p, 右邊大於 p
+//步驟2 左右各自遞迴
 public class Quick implements Sorter {
     @Override
     public void sort(int[] data) {

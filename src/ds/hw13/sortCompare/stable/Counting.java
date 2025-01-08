@@ -10,8 +10,8 @@ import java.util.Arrays;
 public class Counting implements Sorter {
     @Override
     public void sort(int[] data) {
-        int max = Arrays.stream(data).max().orElse(Integer.MIN_VALUE);
-        int min = Arrays.stream(data).min().orElse(Integer.MAX_VALUE);
+        int max = Arrays.stream(data).max().orElse(Integer.MAX_VALUE);
+        int min = Arrays.stream(data).min().orElse(Integer.MIN_VALUE);
         int range = max - min + 1;
         sortByRadix(data, data.length, 1, range, min);
     }

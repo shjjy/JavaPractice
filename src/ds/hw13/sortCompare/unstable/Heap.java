@@ -2,6 +2,8 @@ package ds.hw13.sortCompare.unstable;
 
 import ds.hw13.sortCompare.Sorter;
 
+import java.util.Arrays;
+
 import static ds.util.ArrayUtil.swap;
 
 //heap 的精神為父大子小

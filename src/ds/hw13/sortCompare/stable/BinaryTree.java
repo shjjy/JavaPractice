@@ -2,8 +2,6 @@ package ds.hw13.sortCompare.stable;
 
 import ds.hw13.sortCompare.Sorter;
 
-import java.util.Arrays;
-
 //建立 BST並寫入資料
 //透過中序解析 Tree 並寫入 Array
 
